@@ -1,0 +1,554 @@
+*{margin:0; padding:0;}
+
+html, body{
+width: 100%;
+height: 100%;
+}
+
+.nav{ 
+	background-color:black; 
+	height:40px;
+	max-width:100%;
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	}
+.nav a{
+	color:white;
+	font-size:15px;
+	text-decoration:none;
+	}
+.nav a:hover{
+	font-size:20px;
+	}
+.shop{	
+	background-color:#d3d3d3;
+	height:100px;
+	width:100%;
+	}
+.shop > div{
+	font-size: 20px;
+	}
+.shop a{
+	text-decoration:none;
+	}
+.F_img{
+	background-color:black;
+	height:300px;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items;
+
+	}
+.F_img .iphone13pro{
+	width:100%;
+	background-image:url("../index page/images/iphone-13-pro.jpg");
+	background-size:cover;
+	background-position:center;
+	}
+.F_img h2{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	padding:20px;
+	padding-bottom:5px;
+	font-size: 40px;
+	font-style:Ariel;
+	}
+.F_img span{display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:25px;
+	}
+.woo a{
+	text-decoration:none; font-size:17px; padding:5px;
+
+	}
+.ip_13{
+	width:100%;
+	height:300px;
+	background-color:lavender;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:5px;
+	}
+.ip13_img{
+	width:100%;
+	background-image:url("../index page/images/iphone-13.jpg");
+	background-size:cover;
+	background-position:center;
+	height:300px;
+	}
+.iphone13 h2{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	padding:20px;
+	padding-bottom:5px;
+	font-size: 40px;
+	font-style:Ariel;
+	color:white;
+	}
+.iphone13 span{display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:25px;
+	color:pink;
+	}
+.woo a{
+	text-decoration:none; 
+	font-size:17px; 
+	padding:5px;
+	opacity:0.2px;
+	margin-bottom:5px;
+	}
+.watch{
+	width:100%;
+	height:300px;
+	background-color:lavender;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:5px;
+	}
+.w_img{
+	width:100%;
+	background-image:url("../index page/images/watch.jpg");
+	background-size:cover;
+	background-position:center;
+	height:300px;
+	}
+.w_png{
+	display:flex;
+	margin:auto;
+	justify-content:center;
+	align-items:center;
+	padding-top:0px;
+	}
+.new{color:red;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:10px;
+	padding-top:5px;
+	}
+
+.wao a{
+	text-decoration:none; 
+	}
+/* Cross check */
+.Lee .wao a{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	}
+.fitness{
+	width:100%;
+	margin:auto;
+	}
+.fit_img{
+	width:100%;
+	height:400px;
+	background-color:white;
+	margin-top:5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:5px;
+	}
+.fit_img .fit1{
+		width:50%;
+		background-image:url("../index page/images/fitness.jpg");
+		background-size:cover;
+		background-position:center;
+		height:400px;
+		}
+.fit_img .fit2{
+		width:50%;
+		background-image:url("../index page/images/macbook-pro.jpg");
+		background-size:cover;
+		background-position:center;	
+		height:400px;
+		background-color:black;
+		}
+.fit_img .plus_fit{
+		display:flex;
+		justify-content:center;	
+		align-items:center;
+		margin:5px;
+		}
+.fit_img .fit{
+		color:grey; 
+		padding:0; 
+		margin:0;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		font-size:13px;
+		padding:0%;
+		}
+.fit_img .fo a{
+		text-decoration:none;
+		display:flex; justify-content:center; align-items:center;
+		}
+.fit2 .mac{
+	width:100%;
+	margin:auto;	
+	}
+.mac h2{font-size:40px;display:flex; margin-top:5px; justify-content:center; align-items:center;}
+.mac p{font-size:18px; display:flex; justify-content:center; align-items:center;}
+.mac a{text-decoration:none; display:flex; justify-content:space-around; align-items:center; }
+.val{
+	width:100%;
+	height:400px;
+	background-color:white;
+	margin-top:5px;
+	display:flex;
+	justify-content:center;	
+	align-items:center;
+	gap:5px;
+	}
+.vd{
+	width:50%; 
+	background-color:#d3d3d3; 
+	height:400px;
+	}
+.ad{
+	width:50%; 
+	
+	height:400px;
+	}
+.val_img{
+	background-image:url("../index page/images/valentine.jpg");
+	background-size:cover;
+	background-position:center;	
+	height:400px;
+	}
+.ad_img{
+	background-image:url("../index page/images/arcade.jpg");
+	background-size:cover;
+	background-position:center;	
+	height:400px;
+	}
+.v{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+   }
+.v .sg{color:grey; padding-top:10px;}
+.val .wr a{text-decoration:none;}
+.ad .a{
+	display:flex;
+	jsutify-content:center;
+	align-items:center;
+	flex-direction:column;
+	}
+.a img{
+	margin-top:20px;
+	padding-bottom:5px;
+	}
+.a span{
+	color:grey;
+	}
+.a .wr a{
+	text-decoration:none;
+	}
+.card{
+	width:100%;
+	height:400px;
+	background-color:white;
+	margin-top:5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:5px;
+	}
+.cd{
+   width:50%;
+   height:400px;
+   background-color:black;
+   }
+.tv{
+   width:50%;
+   height:400px;
+   background-color:red;
+   }
+.cd_img{
+	background-image:url("../index page/images/card.jpg");
+	background-size:cover;
+	background-position:center;	
+	height:400px;
+	}
+.tv_img{
+	background-image:url("../index page/images/tv-plus.jpg");
+	background-size:cover;
+	background-position:center;	
+	height:400px;
+	}
+.card .cd_text{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-direction:column;
+		}
+.cd_text img{margin-top:20px;}
+.cd_text span{color:grey;}
+.cd_text .c{color:black;}
+.tv_png{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	}
+.tv_png img{margin-top:20px;}
+.footer{
+	width:100%;
+	height:550px;
+	background-color:#d8d8d8;
+	margin-top:5px;
+	}
+.foot_text{list-style-type:1; margin-left:50px; color:grey; padding-top:10px;}
+.list_foot{
+	   margin:auto;
+	   display:flex;
+	   justify-content:space-around;
+	   align-items:center;	
+	   padding-top:10px;
+	   margin:auto;
+	   }
+ul{list-style:none;}
+.ehn a{text-decoration:none;}
+.ehn{padding-top:10px;}
+.copy{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	}
+.copy .bord{border-right:2px solid grey; padding:10px;border-radius:2px;}
+
+.first_nav {
+	   width:100%;
+	   height:100px;
+	   background-color:#d3d3d3;
+	  }
+.Fn_img{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	gap:30px;
+	}
+.Fn_img img{height:50px; padding-top:10px}
+.first_text{
+	    display:flex;
+	    justify-content:space-around;
+	    align-items:center;
+	    padding-top:5px;
+	    padding-right:20px;
+	    gap:45px;
+	}
+.save{
+     width:100%;
+     height:50px;
+     background-color:#ececec;
+     }
+.sv span{
+	display:flex;
+	justify-content:center;
+	align-items;
+	color:black;
+	padding:10px;
+
+	}
+.sv span a{text-decoration:none; padding-left:5px;}
+.mini{
+      width:100%;
+      height:400px;
+      background-color:black;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      }
+.mini_1{
+	width:70%;
+	height:400px;
+	background-color:white;
+	}
+.mini_2{
+	width:30%;
+	height:400px;
+	background-color:black;
+	}
+.mini1_img{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;	
+	padding-top:70px;
+	}
+.mini1_img .m{color:red; font-size:20px;}
+.mini1_img h2{font-size:50px;}
+.mini1_img span{font-size:30px;}
+.ipad{
+     width:100%;
+     height:400px;
+     background-color:white;
+     margin-top:5px;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+	gap:5px;
+     }
+.ip1{
+      width:50%;
+	height:400px;
+	background-color:red;
+	}
+.ip2{
+	width:50%;
+	height:400px;
+	background-color:white;
+	}
+.ip1 .ip1_img{
+	background-image:url("../ipad/images/ipad_10.jpg");
+	background-size:cover;
+	background-position:center;	
+	height:400px;
+		}
+.ip2 .ip2_img{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		padding-top:70px;
+		flex-direction:column;
+		}
+.ip2_img .m{color:red; font-size:20px;}
+.ip2_img h2{font-size:50px;}
+.ip2_img span{font-size:30px;}
+
+.ip_air{
+	width:100%;
+	height:400px;
+	background-color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:5px;
+	}
+.ip_1{
+	width:50%;
+	height:400px;
+	background-color:white;
+	}
+.ip_2{
+	width:50%;
+	height:400px;
+	background-color:black;
+	}
+.ip_2 .ip_img{
+	background-image:url("../ipad/images/ipad_air.jpg");
+	background-size:cover;
+	background-position:center;	
+	height:400px;
+		}
+.ip_1 .ip_text{
+               display:flex;
+		justify-content:center;
+		align-items:center;
+		padding-top:70px;
+		flex-direction:column;
+		}
+.ip_text h2{font-size:50px;}
+.ip_text span{font-size:30px;}
+.ipad_pro{
+	width:100%;
+	height:300px;
+	background-color:white;
+	margin-top:5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	}
+.pro_img{
+	background-image:url("../ipad/images/ipad_pro_hero.jpg");
+	background-size:cover;
+	background-position:center;	
+	height:300px;
+	margin:auto;
+	width:100%;
+		}
+.ipad_pro .pro_text{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		padding-top:70px;
+		flex-direction:column;
+			}
+.pro_text h2{font-size:50px;}
+.ip_text span{font-size:30px;}
+.which{
+	width:100%;
+	height:700px;
+	background-color:white;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-direction:column;
+	}
+.wh_content{
+	    display:flex;
+	     justify-content:center;
+	     align-items:center;
+		padding-top:100px;	
+	   }
+.wh_content h2{font-size:50px; padding-top:40px;}
+.wh_img img{padding:5px; margin-bottom:-5px;}
+.which .wh_icon{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	gap:180px;
+	margin-top:-100px;
+	}
+.wh_text{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:row;
+	gap:25px;
+	text-align:center;
+	padding-right:20px;
+	margin-top:-120px;
+	}
+.pro_t{
+	border-bottom:2px solid grey;
+	}
+.ip_t{
+	border-bottom:2px solid grey;
+	}
+.mini_t{
+	border-bottom:2px solid grey;
+	}
+.Air_t{
+	border-bottom:2px solid grey;
+	}
+.buy a{
+	text-decoration:none;
+	display:flex;
+	justify-content:center;
+	background-color:blue;
+	color:white;
+	border-radius:9999px;
+	padding:10px;
+	margin-bottom:5px;
+	align-items:center;
+	}
+.inches{
+	width:100%;
+	height:400px;
+	background-color:#d3d3d3;
+	margin-top:10px;
+	}
